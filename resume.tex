@@ -1,0 +1,115 @@
+\documentclass[10pt,a4paper,twocolumn]{article}
+\usepackage{tikz}
+\usepackage{fancyhdr,xcolor}
+\usepackage{mathptmx}
+\usepackage{anyfontsize}
+\usepackage{t1enc}
+\usepackage{fontspec}
+\usepackage{hyperref}
+\usepackage[absolute,overlay]{textpos}
+\usepackage[left=-5cm, top=-1cm, right=5cm]{geometry}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{lipsum}
+\mdfdefinestyle{Frame1}{%
+    linecolor=black,
+    outerlinewidth=1pt,
+    roundcorner=10pt,
+    innertopmargin=10pt,
+    innerbottommargin=10pt,
+    innerrightmargin=5pt,
+    innerleftmargin=10pt,
+    backgroundcolor=black}
+\setmainfont{[Nunito-Regular.ttf]}
+\pagenumbering{gobble}
+\pagestyle{fancy}
+\begin{document}
+\begin{tikzpicture}
+\draw  [fill=black] (-10,-10) rectangle ++(30,5);
+\end{tikzpicture}
+\begin{center}
+\begin{textblock*}{10cm}(5.5cm,1.2cm)
+   \textcolor{white}{\fontsize{30}{40}\selectfont Yash Karande}
+\end{textblock*}
+\begin{textblock*}{10cm}(5.5cm,2.4cm)
+\textcolor{white}{\fontsize{12}{15}\selectfont \href {mailto:kyashkarande@gmail.com} {kyashkarande@gmail.com} | +91-7776831611}
+\end{textblock*}
+\end{center}
+\begin{tikzpicture}
+\draw  [black] rectangle ++(0,30);
+\end{tikzpicture}
+\begin{textblock*}{3.9cm}(1cm,5.3cm)
+   \begin{mdframed}[style=Frame1]
+   \textcolor{white}{\fontsize{20}{20}\selectfont Summary }
+   \end{mdframed}
+\end{textblock*}
+\begin{textblock*}{14cm}(6.5cm,5.1cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont A hardworking, dedicated and highly motivated student looking for a responsible career opportunity at your organization, where I can utilize my training, programming and management skills, human resource, while making a significant contribution to the success of the organization.}
+\end{textblock*}
+\begin{textblock*}{4cm}(1cm,9.3cm)
+   \begin{mdframed}[style=Frame1]
+   \textcolor{white}{\fontsize{20}{20}\selectfont Education}
+   \end{mdframed}
+\end{textblock*}
+\begin{textblock*}{14cm}(6.5cm,9.1cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont \underline{\textbf{BE, Computer Engineering (SPPU) \hspace{20mm}(2016-Present)}}\vspace{1mm} \newline{Institute: Sandip Institute of Technology and Research Center, Nashik. \vspace{1mm} \newline SGPA: 7.50 / 65.30\% (Agg. till 5th sem).}}
+\end{textblock*}
+\begin{textblock*}{14cm}(6.5cm,12.4cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont \underline{\textbf{HSC, Science (Maharashtra Board)\hspace{25mm} (2014-2016)}}\vspace{2mm} \newline{Institute: KTHM, Nashik \hspace{30mm} Percentage: 74.77\%.}}
+\end{textblock*}
+\begin{textblock*}{14cm}(6.5cm,14.8cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont \underline{\textbf{SSC (Maharashtra Board) \hspace{6cm} (2014)}}\vspace{2mm} \newline{School: GGSPS, Nashik \hspace{30mm} Percentage: 86.60\%.}}
+\end{textblock*}
+\begin{textblock*}{3.5cm}(1cm,18cm)
+   \begin{mdframed}[style=Frame1]
+   \textcolor{white}{\fontsize{20}{20}\selectfont Projects}
+   \end{mdframed}
+\end{textblock*}
+\begin{textblock*}{14cm}(6.5cm,18.1cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont  {Image Classifier using tensorflow: } \vspace{3mm}
+   \newline- A ML based project that categorizes the given image into 4 different animal species.}
+\end{textblock*}
+\begin{textblock*}{2.5cm}(1cm,22cm)
+   \begin{mdframed}[style=Frame1]
+   \textcolor{white}{\fontsize{20}{20}\selectfont Skills}
+   \end{mdframed}
+\end{textblock*}
+\begin{textblock*}{14cm}(6.5cm,22cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont  {1] Good grasp of following \vspace{1mm}programming languages and technologies: }\vspace{1mm}C, C++, Java, Python, PHP, JavaScript, Django, AngularJS, Git, gerrit, bash, LaTeX etc.}
+\end{textblock*}
+\begin{textblock*}{14cm}(6.5cm,23.8cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont  {2] Love making dynamic and responsive web-pages with \vspace{1mm} visually pleasing UI/UX.}}
+\end{textblock*}
+\begin{textblock*}{14cm}(6.5cm,25.1cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont  {3] Android related stuff:} \vspace{3mm}
+   \newline· Maintaining and building custom ROMs and kernels for mobile devices.\vspace{2mm}
+   \newline· Maintaining device trees.\vspace{2mm}
+   \newline· Porting software and OS.}
+\end{textblock*}
+\newpage
+\begin{tikzpicture}
+\draw  [white] (-10,-10) rectangle ++(30,5);
+\end{tikzpicture}
+\begin{tikzpicture}
+\draw  [fill=black] rectangle ++(0,30);
+\end{tikzpicture}
+\begin{textblock*}{14cm}(6.5cm,1.5cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont  {4] Good knowledge of database, DBMS software like MySQL, MongoDB and computer networking.}}
+\end{textblock*}
+\begin{textblock*}{14cm}(6.5cm,2.8cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont  {5] Overall a good educator and leader.}}
+\end{textblock*}
+\begin{textblock*}{3.6cm}(1cm,5.5cm)
+   \begin{mdframed}[style=Frame1]
+   \textcolor{white}{\fontsize{20}{20}\selectfont Hobbies/\\Interests}
+   \end{mdframed}
+\end{textblock*}
+\begin{textblock*}{14cm}(6.5cm,5.5cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont {- Making UI/UX designs on Adobe XD.}}
+\end{textblock*}
+\begin{textblock*}{14cm}(6.5cm,6.3cm)
+    \textcolor{black}{\fontsize{15}{20}\selectfont {- Creating various other content like illustrations, cinematic \vspace{1mm} videos, blogs etc.}}
+\end{textblock*}
+\begin{textblock*}{14cm}(6.5cm,7.5cm)
+    \textcolor{black}{\fontsize{15}{20}\selectfont {- Read about and remain up-to-date with the current and\vspace{1mm} upcoming tech,}}
+\end{textblock*} 
+\end{document}
