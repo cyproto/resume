@@ -19,7 +19,13 @@
     innerrightmargin=5pt,
     innerleftmargin=10pt,
     backgroundcolor=black}
-\setmainfont{[Nunito-Regular.ttf]}
+    
+\setmainfont{Nunito}[
+  Path=./,
+  Extension=.ttf,
+  UprightFont=*-Light,
+  BoldFont=*-Bold,
+]
 \pagenumbering{gobble}
 \pagestyle{fancy}
 \begin{document}
@@ -37,88 +43,86 @@
 \begin{tikzpicture}
 \draw  [black] rectangle ++(0,30);
 \end{tikzpicture}
-\begin{textblock*}{3.9cm}(1cm,5.3cm)
+\begin{textblock*}{3.9cm}(1cm,5.0cm)
    \begin{mdframed}[style=Frame1]
    \textcolor{white}{\fontsize{20}{20}\selectfont Summary }
    \end{mdframed}
 \end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,5.1cm)
+\begin{textblock*}{14cm}(6.5cm,5.0cm)
    \textcolor{black}{\fontsize{15}{20}\selectfont A hardworking, dedicated and highly motivated student looking for a responsible career opportunity at your organization, where I can utilize my training, programming and management skills, human resource, while making a significant contribution to the success of the organization.}
 \end{textblock*}
-\begin{textblock*}{4cm}(1cm,9.3cm)
+\begin{textblock*}{4cm}(1cm,9.0cm)
    \begin{mdframed}[style=Frame1]
    \textcolor{white}{\fontsize{20}{20}\selectfont Education}
    \end{mdframed}
 \end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,9.1cm)
-   \textcolor{black}{\fontsize{15}{20}\selectfont \underline{\textbf{BE, Computer Engineering (SPPU) \hspace{20mm}(2016-Present)}}\vspace{1mm} \newline{Institute: Sandip Institute of Technology and Research Center, Nashik. \vspace{1mm} \newline CGPA: 7.55 / 66.46\% (Agg. till 6th sem).}}
+\begin{textblock*}{14cm}(6.5cm,9.0cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont \underline{\textbf{BE, Computer Engineering (SPPU)} \hspace{25mm}\textbf{(2016-2020)}}\vspace{1mm} \newline{Sandip Institute of Technology\\ and Research Center, Nashik. \hspace{15mm}\textbf{ CGPA: 7.80 / 68.64\% }}}
 \end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,12.4cm)
-   \textcolor{black}{\fontsize{15}{20}\selectfont \underline{\textbf{HSC, Science (Maharashtra Board)\hspace{25mm} (2014-2016)}}\vspace{2mm} \newline{Institute: KTHM, Nashik \hspace{30mm} Percentage: 74.77\%.}}
+\begin{textblock*}{14cm}(6.5cm,11.6cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont \underline{\textbf{HSC, Science (Maharashtra Board)\hspace{25mm} (2014-2016)}}\vspace{2mm} \newline{KTHM, Nashik \hspace{85mm}  \textbf{74.77\%.}}}
 \end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,14.8cm)
-   \textcolor{black}{\fontsize{15}{20}\selectfont \underline{\textbf{SSC (Maharashtra Board) \hspace{6cm} (2014)}}\vspace{2mm} \newline{School: GGSPS, Nashik \hspace{30mm} Percentage: 86.60\%.}}
+\begin{textblock*}{14cm}(6.5cm,13.6cm)
+   \textcolor{black}{\fontsize{15}{20}\selectfont \underline{\textbf{SSC (Maharashtra Board) \hspace{6cm} (2014)}}\vspace{2mm} \newline{GGSPS, Nashik \hspace{80mm}  \textbf{86.60\%.}}}
 \end{textblock*}
-\begin{textblock*}{3.5cm}(1cm,18.60cm)
+\begin{textblock*}{3.5cm}(1cm,16cm)
    \begin{mdframed}[style=Frame1]
    \textcolor{white}{\fontsize{20}{20}\selectfont Projects}
    \end{mdframed}
 \end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,18.40cm)
-   \textcolor{black}{\fontsize{15}{20}\selectfont  {1] Secured e-Assessment using blockchain: } \vspace{3mm}
-   \newline- (Ongoing) Conduction and evaluation of academic tests in a peer-to-peer manner using blockchain.}
+\begin{textblock*}{14cm}(6.5cm,16cm)
+\begin{enumerate}
+    \item \textcolor{black}{\fontsize{14}{20}\selectfont \textbf{Internal Job Posting:} A pure REST API project built with Slim, PHP and PostgreSQL for internal hiring of employees in an organisation.}
+    \item \textcolor{black}{\fontsize{14}{20}\selectfont \textbf{Kitchen dashboard:} Made to automate daily tasks required in mess services. Written in Angular with Firebase as database and used firebase functions for crons.}
+    \item \textcolor{black}{\fontsize{14}{20}\selectfont \textbf{Secured e-Assessment using blockchain:} Main objective was to eradicate the flaws in examination systems that use traditional database systems with the use of blockchain. Made with Hyperledger fabric, Angular and Node.js.}
+    \item \textcolor{black}{\fontsize{14}{20}\selectfont \textbf{To-Do app:} Made for Hackerearth's StackHack 1.0, which consists of frontend made in Angular and backend with Node.js with MongoDB as database.}
+    \item \textcolor{black}{\fontsize{14}{20}\selectfont \textbf{Event management dashboard:} A client side application written in angular for management of guests, speakers, audience, etc.}
+    \item \textcolor{black}{\fontsize{14}{20}\selectfont \textbf{CSV to Table:} Client side application which imports CSV and displays it in tabular format also providing the user to sort, search \& merge data.}
+    \item \textcolor{black}{\fontsize{14}{20}\selectfont \textbf{Image classifier:} An image classifier made using python and tensorflow.}
+\end{enumerate}
 \end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,20.40cm)
-   \textcolor{black}{\fontsize{15}{20}\selectfont  {2] Image Classifier using tensorflow: } \vspace{3mm}
-   \newline- A ML based project that categorizes the given image into 4 different animal species.}
-\end{textblock*}
-\begin{textblock*}{2.5cm}(1cm,23.70cm)
+\newpage
+\begin{textblock*}{2.5cm}(1cm,2.00cm)
    \begin{mdframed}[style=Frame1]
    \textcolor{white}{\fontsize{20}{20}\selectfont Skills}
    \end{mdframed}
 \end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,23.50cm)
-   \textcolor{black}{\fontsize{15}{20}\selectfont  {1] Good grasp of following \vspace{1mm}programming languages and technologies:}\vspace{1mm} C, C++, Java, Python, PHP, JavaScript, HTML, CSS, Git, bash, LaTeX.}
+\begin{textblock*}{14cm}(6.5cm,2.00cm)
+\begin{enumerate}
+    \item \textcolor{black}{\fontsize{14}{20} \selectfont \textbf{Frameworks/technologies:} Angular, Slim, Node.js, Flutter.}
+    \item \textcolor{black}{\fontsize{14}{20} \selectfont \textbf{Programming languages:} Typescript, PHP, C++, Java, Python}
+    \item \textcolor{black}{\fontsize{14}{20} \selectfont \textbf{Databases:} Firebase, PostgreSQL, MongoDB.}
+    \item \textcolor{black}{\fontsize{14}{20} \selectfont \textbf{Others:} Git, Bash.}
+\end{enumerate}
 \end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,25.60cm)
-   \textcolor{black}{\fontsize{15}{20}\selectfont  {2] Good knowledge of MySQL,\vspace{1mm} PostgreSQL and Oracle DBMS.}}
-\end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,27.00cm)
-   \textcolor{black}{\fontsize{15}{20}\selectfont {3] Familiar with Django, Angular, Flutter.}}
-\end{textblock*}
-\newpage
 \begin{tikzpicture}
 \draw  [white] (-10,-10) rectangle ++(30,5);
 \end{tikzpicture}
 \begin{tikzpicture}
 \draw  [fill=black] rectangle ++(0,30);
 \end{tikzpicture}
-\begin{textblock*}{3.50cm}(1cm,2.00cm)
+\begin{textblock*}{3.50cm}(1cm,7.00cm)
    \begin{mdframed}[style=Frame1]
    \textcolor{white}{\fontsize{20}{20}\selectfont Courses}
    \end{mdframed}
 \end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,2.00cm)
-\textcolor{black}{\fontsize{15}{20}\selectfont  {1] \href{https://drive.google.com/drive/folders/1vIvJdWDVqlOQucVfQsaUvrnagXEP9WfX}{Machine Learning} - Andrew Ng (Platform: Coursera) } \vspace{5mm}}
+\begin{textblock*}{14cm}(6.5cm,7.00cm)
+\begin{enumerate}
+    \item \textcolor{black} {\fontsize{14}{20}\selectfont \textbf{\href{https://drive.google.com/drive/folders/1vIvJdWDVqlOQucVfQsaUvrnagXEP9WfX}{Machine Learning}} - Andrew Ng (Coursera) }
+    \item \textcolor{black} {\fontsize{14}{20}\selectfont \textbf{Flutter and Dart - The Complete Guide} - Maximilian Schwarzmüller (Udemy)}
+    \item \textcolor{black} {\fontsize{14}{20}\selectfont \textbf{\href{https://drive.google.com/drive/folders/1iNJ9KclRptNXeT2hnjGS4JAHuWdt_E-u}{Blockchain Basics}} - Bina Ramamurthy (Coursera) }
+\end{enumerate}
 \end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,3.00cm)
-\textcolor{black}{\fontsize{15}{20}\selectfont  {2] \href{https://drive.google.com/drive/folders/1iNJ9KclRptNXeT2hnjGS4JAHuWdt_E-u}{Blockchain Basics} - Bina Ramamurthy (Platform: Coursera) } \vspace{5mm}}
-\end{textblock*}
-\begin{textblock*}{3.6cm}(1cm,6.00cm)
+\begin{textblock*}{3.6cm}(1cm,11.00cm)
    \begin{mdframed}[style=Frame1]
    \textcolor{white}{\fontsize{20}{20}\selectfont Hobbies/\\Interests}
    \end{mdframed}
 \end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,6.00cm)
-\textcolor{black}{\fontsize{15}{20}\selectfont  {1] Maintaining and building custom\vspace{1mm} roms and kernels for android devices. Porting android roms.} \vspace{5mm}}
+\begin{textblock*}{14cm}(6.5cm,11.00cm)
+\begin{enumerate}
+    \item \textcolor{black}{\fontsize{14}{20}\selectfont Maintaining and building custom\vspace{1mm} roms and kernels for android devices.}
+    \item \textcolor{black}{\fontsize{14}{20}\selectfont Making UI/UX designs on Adobe XD and Figma.}
+    \item \textcolor{black}{\fontsize{14}{20}\selectfont Creating various other content like illustrations and cinematic \vspace{1mm} videos.}
+\end{enumerate}
 \end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,7.25cm)
-   \textcolor{black}{\fontsize{15}{20}\selectfont {2] Making UI/UX designs on Adobe XD.}}
-\end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,8.05cm)
-    \textcolor{black}{\fontsize{15}{20}\selectfont {3] Creating various other content like illustrations and cinematic \vspace{1mm} videos.}}
-\end{textblock*}
-\begin{textblock*}{14cm}(6.5cm,9.25cm)
-    \textcolor{black}{\fontsize{15}{20}\selectfont {4] Read/watch and remain up-to-date with the current and\vspace{1mm} upcoming technologies.}}
-\end{textblock*} 
 \end{document}
